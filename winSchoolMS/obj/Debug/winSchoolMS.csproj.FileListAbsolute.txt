@@ -1,0 +1,54 @@
+D:\Visual Programming\winSchoolMS\winSchoolMS\bin\Debug\winSchoolMS.exe.config
+D:\Visual Programming\winSchoolMS\winSchoolMS\bin\Debug\winSchoolMS.exe
+D:\Visual Programming\winSchoolMS\winSchoolMS\bin\Debug\winSchoolMS.pdb
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.csproj.AssemblyReference.cache
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.csproj.SuggestedBindingRedirects.cache
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.frmLogin.resources
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.Properties.Resources.resources
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.csproj.GenerateResource.cache
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.csproj.CoreCompileInputs.cache
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.exe
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.pdb
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.frmDashBoard.resources
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.frmTeacherDetailsView.resources
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.frmSignUp.resources
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.TeacherInformation.resources
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.EducationalDetails.resources
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.frmExamination.resources
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.frmDefultarstudent.resources
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.FrmExaminationDetail.resources
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.frmFeeDetail.resources
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.frmStudentDetailsVeiw.resources
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.frmCourseAllocate.resources
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winproject.frmCourseAllocateDetail.resources
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winproject.frmStudentAttendance.resources
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winproject.frmTeacherAttendance.resources
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.frmStudentPersonalDetails.resources
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.frmAttendenceVeiw.resources
+E:\VP-Final-Project(1)-master\winSchoolMS\bin\Debug\winSchoolMS.exe.config
+E:\VP-Final-Project(1)-master\winSchoolMS\bin\Debug\winSchoolMS.exe
+E:\VP-Final-Project(1)-master\winSchoolMS\bin\Debug\winSchoolMS.pdb
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.csproj.AssemblyReference.cache
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.csproj.SuggestedBindingRedirects.cache
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.frmCourseAllocate.resources
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winproject.frmCourseAllocateDetail.resources
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winproject.frmStudentAttendance.resources
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winproject.frmTeacherAttendance.resources
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.TeacherInformation.resources
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.frmStudentPersonalDetails.resources
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.frmAttendenceVeiw.resources
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.frmExamination.resources
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.frmDashBoard.resources
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.frmDefultarstudent.resources
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.FrmExaminationDetail.resources
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.frmFeeDetail.resources
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.frmLogin.resources
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.frmSignUp.resources
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.frmTeacherDetailsView.resources
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.Properties.Resources.resources
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.frmStudentDetailsVeiw.resources
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.csproj.GenerateResource.cache
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.csproj.CoreCompileInputs.cache
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.exe
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.pdb
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.frmEducationalDetails.resources
