@@ -114,8 +114,9 @@
             // 
             // btnPrint
             // 
-            this.btnPrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.btnPrint.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.btnPrint.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnPrint.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPrint.ForeColor = System.Drawing.SystemColors.Window;
             this.btnPrint.Location = new System.Drawing.Point(686, 87);
             this.btnPrint.Name = "btnPrint";
             this.btnPrint.Size = new System.Drawing.Size(75, 36);
@@ -125,9 +126,10 @@
             // 
             // btnSearch
             // 
-            this.btnSearch.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnSearch.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.btnSearch.Location = new System.Drawing.Point(605, 87);
+            this.btnSearch.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnSearch.Location = new System.Drawing.Point(605, 86);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(75, 36);
             this.btnSearch.TabIndex = 50;

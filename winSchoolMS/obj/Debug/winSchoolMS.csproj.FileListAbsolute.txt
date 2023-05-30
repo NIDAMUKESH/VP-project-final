@@ -52,3 +52,4 @@ E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.csproj.CoreCompi
 E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.exe
 E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.pdb
 E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.frmEducationalDetails.resources
+E:\VP-Final-Project(1)-master\winSchoolMS\obj\Debug\winSchoolMS.frmforgetpassword.resources

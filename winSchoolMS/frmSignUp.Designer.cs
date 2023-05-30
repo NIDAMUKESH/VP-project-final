@@ -157,11 +157,12 @@
             // 
             // btnCreateAccount
             // 
-            this.btnCreateAccount.BackColor = System.Drawing.Color.RoyalBlue;
-            this.btnCreateAccount.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.btnCreateAccount.Location = new System.Drawing.Point(320, 343);
+            this.btnCreateAccount.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnCreateAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCreateAccount.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnCreateAccount.Location = new System.Drawing.Point(531, 322);
             this.btnCreateAccount.Name = "btnCreateAccount";
-            this.btnCreateAccount.Size = new System.Drawing.Size(109, 41);
+            this.btnCreateAccount.Size = new System.Drawing.Size(89, 57);
             this.btnCreateAccount.TabIndex = 11;
             this.btnCreateAccount.Text = "Create account";
             this.btnCreateAccount.UseVisualStyleBackColor = false;

@@ -82,7 +82,9 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.Window;
             this.button1.Location = new System.Drawing.Point(605, 100);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 36);
@@ -92,7 +94,9 @@
             // 
             // btnPrint
             // 
-            this.btnPrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.btnPrint.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnPrint.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPrint.ForeColor = System.Drawing.SystemColors.Window;
             this.btnPrint.Location = new System.Drawing.Point(686, 100);
             this.btnPrint.Name = "btnPrint";
             this.btnPrint.Size = new System.Drawing.Size(75, 36);

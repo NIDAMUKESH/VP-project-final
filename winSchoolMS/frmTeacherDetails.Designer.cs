@@ -313,8 +313,9 @@
             // 
             // btnInsert
             // 
-            this.btnInsert.BackColor = System.Drawing.Color.LimeGreen;
+            this.btnInsert.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnInsert.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInsert.ForeColor = System.Drawing.SystemColors.Window;
             this.btnInsert.Location = new System.Drawing.Point(203, 387);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(75, 47);
@@ -324,8 +325,9 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnUpdate.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate.ForeColor = System.Drawing.SystemColors.Window;
             this.btnUpdate.Location = new System.Drawing.Point(353, 387);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(75, 47);
@@ -335,8 +337,9 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.BackColor = System.Drawing.Color.Red;
+            this.btnDelete.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.ForeColor = System.Drawing.SystemColors.Window;
             this.btnDelete.Location = new System.Drawing.Point(491, 387);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 47);
@@ -346,7 +349,7 @@
             // 
             // txtLastName
             // 
-            this.txtLastName.Location = new System.Drawing.Point(394, 116);
+            this.txtLastName.Location = new System.Drawing.Point(392, 113);
             this.txtLastName.Name = "txtLastName";
             this.txtLastName.Size = new System.Drawing.Size(174, 20);
             this.txtLastName.TabIndex = 46;
@@ -354,7 +357,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::winSchoolMS.Properties.Resources.student_Dummy_pic_removebg_preview;
-            this.pictureBox2.Location = new System.Drawing.Point(610, 116);
+            this.pictureBox2.Location = new System.Drawing.Point(609, 113);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(139, 142);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

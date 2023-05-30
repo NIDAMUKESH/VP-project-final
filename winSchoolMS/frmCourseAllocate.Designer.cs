@@ -29,16 +29,13 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCourseAllocate));
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtTeacherId = new System.Windows.Forms.TextBox();
             this.txtFirstName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtLastName = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtCourseName = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.txtClass = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.txtSection = new System.Windows.Forms.TextBox();
@@ -50,20 +47,10 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.cmbClass = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.gvCourseAllocate)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.Window;
-            this.label1.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label1.Location = new System.Drawing.Point(277, 154);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Teacher ID";
             // 
             // label2
             // 
@@ -73,16 +60,9 @@
             this.label2.Size = new System.Drawing.Size(0, 13);
             this.label2.TabIndex = 1;
             // 
-            // txtTeacherId
-            // 
-            this.txtTeacherId.Location = new System.Drawing.Point(348, 150);
-            this.txtTeacherId.Name = "txtTeacherId";
-            this.txtTeacherId.Size = new System.Drawing.Size(168, 20);
-            this.txtTeacherId.TabIndex = 3;
-            // 
             // txtFirstName
             // 
-            this.txtFirstName.Location = new System.Drawing.Point(609, 150);
+            this.txtFirstName.Location = new System.Drawing.Point(348, 149);
             this.txtFirstName.Name = "txtFirstName";
             this.txtFirstName.Size = new System.Drawing.Size(168, 20);
             this.txtFirstName.TabIndex = 5;
@@ -92,7 +72,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.Window;
             this.label3.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label3.Location = new System.Drawing.Point(548, 154);
+            this.label3.Location = new System.Drawing.Point(287, 153);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 13);
             this.label3.TabIndex = 4;
@@ -100,7 +80,7 @@
             // 
             // txtLastName
             // 
-            this.txtLastName.Location = new System.Drawing.Point(82, 206);
+            this.txtLastName.Location = new System.Drawing.Point(609, 146);
             this.txtLastName.Name = "txtLastName";
             this.txtLastName.Size = new System.Drawing.Size(168, 20);
             this.txtLastName.TabIndex = 7;
@@ -110,7 +90,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.SystemColors.Window;
             this.label4.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label4.Location = new System.Drawing.Point(20, 209);
+            this.label4.Location = new System.Drawing.Point(547, 149);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(58, 13);
             this.label4.TabIndex = 6;
@@ -133,13 +113,6 @@
             this.label6.Size = new System.Drawing.Size(71, 13);
             this.label6.TabIndex = 10;
             this.label6.Text = "Course Name";
-            // 
-            // txtClass
-            // 
-            this.txtClass.Location = new System.Drawing.Point(609, 98);
-            this.txtClass.Name = "txtClass";
-            this.txtClass.Size = new System.Drawing.Size(168, 20);
-            this.txtClass.TabIndex = 13;
             // 
             // label7
             // 
@@ -205,16 +178,17 @@
             this.gvCourseAllocate.BackgroundColor = System.Drawing.Color.LightGray;
             this.gvCourseAllocate.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gvCourseAllocate.GridColor = System.Drawing.SystemColors.ControlLightLight;
-            this.gvCourseAllocate.Location = new System.Drawing.Point(27, 316);
+            this.gvCourseAllocate.Location = new System.Drawing.Point(27, 273);
             this.gvCourseAllocate.Name = "gvCourseAllocate";
-            this.gvCourseAllocate.Size = new System.Drawing.Size(750, 249);
+            this.gvCourseAllocate.Size = new System.Drawing.Size(750, 292);
             this.gvCourseAllocate.TabIndex = 24;
             // 
             // btnInsert
             // 
-            this.btnInsert.BackColor = System.Drawing.Color.LimeGreen;
+            this.btnInsert.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnInsert.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInsert.Location = new System.Drawing.Point(228, 248);
+            this.btnInsert.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnInsert.Location = new System.Drawing.Point(221, 203);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(75, 47);
             this.btnInsert.TabIndex = 44;
@@ -223,9 +197,10 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnUpdate.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Location = new System.Drawing.Point(384, 248);
+            this.btnUpdate.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnUpdate.Location = new System.Drawing.Point(377, 203);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(75, 47);
             this.btnUpdate.TabIndex = 45;
@@ -234,9 +209,10 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.BackColor = System.Drawing.Color.Red;
+            this.btnDelete.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(530, 248);
+            this.btnDelete.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnDelete.Location = new System.Drawing.Point(523, 203);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 47);
             this.btnDelete.TabIndex = 46;
@@ -252,12 +228,32 @@
             this.panel1.Size = new System.Drawing.Size(799, 65);
             this.panel1.TabIndex = 47;
             // 
+            // cmbClass
+            // 
+            this.cmbClass.FormattingEnabled = true;
+            this.cmbClass.Items.AddRange(new object[] {
+            "Class 1st",
+            "Class 2nd",
+            "Class 3rd",
+            "Class 4th",
+            "Class 5th",
+            "Class 6th",
+            "Class 7th",
+            "Class 8th",
+            "Class 9th",
+            "Matric"});
+            this.cmbClass.Location = new System.Drawing.Point(609, 98);
+            this.cmbClass.Name = "cmbClass";
+            this.cmbClass.Size = new System.Drawing.Size(168, 21);
+            this.cmbClass.TabIndex = 48;
+            // 
             // frmCourseAllocate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(801, 580);
+            this.Controls.Add(this.cmbClass);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnInsert);
@@ -266,7 +262,6 @@
             this.Controls.Add(this.label10);
             this.Controls.Add(this.txtSection);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.txtClass);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtCourseName);
             this.Controls.Add(this.label6);
@@ -274,9 +269,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtFirstName);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtTeacherId);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCourseAllocate";
@@ -290,17 +283,13 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtTeacherId;
         private System.Windows.Forms.TextBox txtFirstName;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtLastName;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtCourseName;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtClass;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtSection;
@@ -312,5 +301,6 @@
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ComboBox cmbClass;
     }
 }

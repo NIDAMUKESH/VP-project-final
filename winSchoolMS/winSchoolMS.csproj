@@ -47,11 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EducationalDetails.cs">
+    <Compile Include="frmEducationalDetails.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EducationalDetails.Designer.cs">
-      <DependentUpon>EducationalDetails.cs</DependentUpon>
+    <Compile Include="frmEducationalDetails.Designer.cs">
+      <DependentUpon>frmEducationalDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="frmCourseAllocate.cs">
       <SubType>Form</SubType>
@@ -65,6 +65,12 @@
     <Compile Include="frmCourseAllocateDetail.Designer.cs">
       <DependentUpon>frmCourseAllocateDetail.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmforgetpassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmforgetpassword.Designer.cs">
+      <DependentUpon>frmforgetpassword.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmStudentAttendance.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,11 +83,11 @@
     <Compile Include="frmTeacherAttendance.Designer.cs">
       <DependentUpon>frmTeacherAttendance.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmTeacherInformation.cs">
+    <Compile Include="frmTeacherDetails.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmTeacherInformation.Designer.cs">
-      <DependentUpon>frmTeacherInformation.cs</DependentUpon>
+    <Compile Include="frmTeacherDetails.Designer.cs">
+      <DependentUpon>frmTeacherDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="frmStudentPersonalDetails.cs">
       <SubType>Form</SubType>
@@ -151,8 +157,8 @@
     <Compile Include="frmStudentDetailsVeiw.Designer.cs">
       <DependentUpon>frmStudentDetailsVeiw.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="EducationalDetails.resx">
-      <DependentUpon>EducationalDetails.cs</DependentUpon>
+    <EmbeddedResource Include="frmEducationalDetails.resx">
+      <DependentUpon>frmEducationalDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCourseAllocate.resx">
       <DependentUpon>frmCourseAllocate.cs</DependentUpon>
@@ -160,14 +166,17 @@
     <EmbeddedResource Include="frmCourseAllocateDetail.resx">
       <DependentUpon>frmCourseAllocateDetail.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmforgetpassword.resx">
+      <DependentUpon>frmforgetpassword.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmStudentAttendance.resx">
       <DependentUpon>frmStudentAttendance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmTeacherAttendance.resx">
       <DependentUpon>frmTeacherAttendance.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmTeacherInformation.resx">
-      <DependentUpon>frmTeacherInformation.cs</DependentUpon>
+    <EmbeddedResource Include="frmTeacherDetails.resx">
+      <DependentUpon>frmTeacherDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmStudentPersonalDetails.resx">
       <DependentUpon>frmStudentPersonalDetails.cs</DependentUpon>
@@ -230,6 +239,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\student_Dummy_pic-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\school-management.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student pic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student_pic-removebg-preview.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
