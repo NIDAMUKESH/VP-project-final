@@ -37,6 +37,22 @@ namespace winSchoolMS
             obj.Show();
         }
 
-      
+        private void btnLogin_Click_1(object sender, EventArgs e)
+        {
+            frmDashBoard obj = new frmDashBoard();
+            obj.Show();     
+        }
+
+        private void label4_Click_1(object sender, EventArgs e)
+        {
+            frmforgetpassword obj = new frmforgetpassword();
+            obj.Show();
+        }
+
+        private void lblCreateanAccount_Click(object sender, EventArgs e)
+        {
+            frmSignUp obj = new frmSignUp();
+            obj.Show();
+        }
     }
 }

@@ -95,6 +95,7 @@
             this.label4.Size = new System.Drawing.Size(109, 16);
             this.label4.TabIndex = 18;
             this.label4.Text = "Forgot Password";
+            this.label4.Click += new System.EventHandler(this.label4_Click_1);
             // 
             // txtName
             // 
@@ -124,6 +125,7 @@
             this.lblCreateanAccount.Size = new System.Drawing.Size(116, 16);
             this.lblCreateanAccount.TabIndex = 16;
             this.lblCreateanAccount.Text = "Create an Account";
+            this.lblCreateanAccount.Click += new System.EventHandler(this.lblCreateanAccount_Click);
             // 
             // label7
             // 
@@ -158,6 +160,7 @@
             this.btnLogin.TabIndex = 14;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click_1);
             // 
             // pbxLogo
             // 
